@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
-  
+
     let form = document.getElementById("create-task-form")
     console.log("testing",form)
-  
+
     let textBox =  document.getElementById("new-task-description")
     // let button = form.querySelectorAll('input')[1]
-    
+
     let tasks = document.getElementById('tasks') // ul
-    
+
     form.addEventListener("submit", function(event) {
       event.preventDefault()
       console.log("button clicked")
